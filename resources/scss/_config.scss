@@ -1,0 +1,12 @@
+/*
+PROJECT CONFIG
+ */
+
+// CUSTOM CONFIG
+@import "main-config"; // include main variables
+
+// RESET
+@import "_reset/base"; // reset styles
+@import "_reset/input"; // reset styles
+@import "_reset/view-wrapper"; // .view-wrapper, .container, .row
+@import "_reset/default-text"; // default classes (text-align and bold) and default styles for text (H1-H6, P, A, UL/LI/OL)
