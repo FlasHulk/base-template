@@ -1,17 +1,5 @@
-/*
-INCLUDE ALL SCSS FILES
- */
-
-// CONFIGS
-@import "config"; // include default and main variables
-
-// SECTIONS
-@import "_layouts/view-header"; // HEADER
-@import "_layouts/view-section"; // CONTENT
-@import "_layouts/view-main";
-@import "_layouts/view-footer"; // FOOTER
-
-// PARTS
-@import "_parts/breadcrumbs"; // breadcrumbs
-@import "_parts/buttons"; // buttons
-@import "_parts/pagination"; // pagination
+@import "layouts";
+@import "components";
+@import "base";
+@import "mixins";
+@import "libs";
