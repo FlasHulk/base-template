@@ -1,0 +1,7 @@
+@mixin hovers() {
+	@media screen and (min-width: 1025px) {
+	  &:hover {
+		@content;
+	  }
+	}
+}
